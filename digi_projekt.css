@@ -1,0 +1,297 @@
+* { /* sternchen selektor */
+	box-sizing: border-box;
+}
+
+
+html, body, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	border-radius: 0px;
+	font-family: 'SeroPro-Light';
+	font-weight: 100;
+	
+
+}
+
+p{
+	margin: 0px;
+	padding: 0px;
+	border-radius: 0px;
+	font-family: 'SeroPro-Light';
+	line-height: 25pt;
+	margin-top: 10pt;
+	font-size: 12pt;
+	font-weight: 200;
+}
+
+/*1200 mal 900px*/
+
+
+
+.clear{
+	clear: both;
+}
+
+
+
+
+h2{	
+	/*font-family: 'SeroPro';*/
+	font-size: 24pt;
+
+}
+
+
+h3{
+	/*font-family: 'SeroPro';*/
+	font-size: 16pt;
+
+	}
+
+h4{
+	/*font-family: 'SeroPro';*/
+	font-size: 12pt;
+	line-height: 18pt;
+
+
+}
+
+h5{
+	margin: 0px;
+	padding: 0px;
+	border-radius: 0px;
+	font-family: 'SeroPro-Light';
+	font-weight: 600;
+	
+
+}
+
+
+
+
+
+/*boxen spalte1*/
+
+.spalte1{
+	float: left;
+}
+		.ausdauer{
+			width: 290px;
+			height: 85px;
+			background-color: #FFF;
+			margin-top: 60px;
+			margin-left: 40px;
+			padding: 0px;
+			
+		}
+
+		.balance{
+			width: 290px;
+			height: 85px;
+			background-color: #FFF;
+			margin-left: 40px;
+			
+		}
+
+		.fitness_und_kraft{
+			width: 290px;
+			height: 85px;
+			background-color:#FFF;
+			margin-left: 40px;
+			
+		}
+
+		.geschick{
+			width: 290px;
+			height: 85px;
+			background-color: #FFF;
+			margin-left: 40px;
+			
+		}
+
+
+
+
+.spalte2{
+	float: left;
+	margin-top: 60px;
+	
+}
+		
+		.seilspringen{
+			width: 290px;
+			height: 42.5px;
+			background-color:#FFF;
+
+
+				}
+
+
+		.bandgymnastik{
+			width: 290px;
+			height: 42.5px;
+			background-color: #FFF;
+		}
+
+		/*.seiltanz{
+			width: 290px;
+			height: 42.5px;
+			background-color: red;
+		}
+
+		.slagline{
+			width: 290px;
+			height: 42.5px;
+			background-color: blue;
+		}
+
+		.seilziehen{
+			width: 290px;
+			height: 28.333px;
+			background-color: red;
+		}
+
+		.tubes{
+			width: 290px;
+			height: 28.333px;
+			background-color: blue;
+		}
+
+		.robe_training{
+			width: 290px;
+			height: 28.333px;
+			background-color: red;
+		}
+
+		.gummitwister{
+			width: 290px;
+			height: 42.5px;
+			background-color: blue;
+		}
+
+		.handtwister{
+			width: 290px;
+			height: 42.5px;
+			background-color: red;
+		}
+
+				<div class="seiltanz">
+					<h3>Seiltanz</h3>
+				</div>
+
+				<div class="slagline">
+					<h3>Slagline</h3>
+				</div>
+
+				<div class="seilziehen">
+					<h3>Seilziehen</h3>
+				</div>
+
+				<div class="tubes">
+					<h3>Tubes</h3>
+				</div>
+
+				<div class="robe_training">
+					<h3>Robe Training</h3>
+				</div>
+
+				<div class="gummitwister">
+					<h3>Gummitwister</h3>
+				</div>
+
+				<div class="handtwister">
+					<h3>Handtwister</h3>
+				</div>*/
+
+
+
+
+
+.spalte3{
+	float: left;
+	margin-top: 60px;
+	overflow: auto;
+}
+
+		.text_seilspringen{
+			width: 500px;
+			height: 480px;
+			background-color:#FFF;
+						
+						}
+
+		/*.text_bandgymnastik{
+			width: 500px;
+			height: 480px;
+			background-color: blue;
+		}
+
+		.text_seiltanz{
+			width: 500px;
+			height: 480px;
+			background-color: red;
+		}
+
+		.text_slagline{
+			width: 500px;
+			height: 480px;
+			background-color: blue;
+		}
+		
+		.text_seilziehen{
+			width: 500px;
+			height: 480px;
+			background-color: red;
+		}
+
+		.text_tubes{
+			width: 500px;
+			height: 480px;
+			background-color: blue;
+		}
+
+		.text_robe_training{
+			width: 500px;
+			height: 480px;
+			background-color: red;
+		}
+
+		.text_gummitwister{
+			width: 500px;
+			height: 480px;
+			background-color: blue;
+		}
+
+		.text_handtwister{
+			width: 500px;
+			height: 480px;
+			background-color: red;
+		}*/
+
+
+
+		.footer {
+
+		
+		color: #000;
+		display: block;
+		font-size: 350px;
+		margin-left: 0px;
+		position: absolute;
+		float: left;
+		position:fixed;
+		bottom: 0px;
+		margin: 0px;
+		padding: 0px;
+		border-radius: 0px;
+
+    
+
+		}
+
+		
+
+
+
+
+
