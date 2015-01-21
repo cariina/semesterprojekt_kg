@@ -3,13 +3,37 @@
 }
 
 
-html, body, h1, h2, h3, h4 {
+html, body, .gross, .klein, .text,  a, p {
 	margin: 0px;
 	padding: 0px;
 	border-radius: 0px;
 	font-family: 'SeroPro-Light';
-	font-weight: 100;
+	font-weight: 100px;
+	text-decoration: none;
+	text-align: baseline;
+	color: black;
+
 	
+
+}
+
+
+.gross {
+	font-size: 24pt;
+}
+
+.klein{
+	font-size: 16pt;
+
+}
+
+.bold{
+	font-family: 'SeroPro-Bold';
+}
+
+.text{
+	font-size: 12pt;
+	line-height: 18pt;
 
 }
 
@@ -19,9 +43,22 @@ p{
 	border-radius: 0px;
 	font-family: 'SeroPro-Light';
 	line-height: 25pt;
-	margin-top: 10pt;
+	margin-top: 20pt;
 	font-size: 12pt;
-	font-weight: 200;
+	margin-bottom: 8pt;
+
+}
+
+.p_top{
+	margin: 0px;
+	padding: 0px;
+	border-radius: 0px;
+	font-family: 'SeroPro-Light';
+	line-height: 25pt;
+	margin-top: 0pt;
+	font-size: 12pt;
+	margin-bottom: 8pt;
+
 }
 
 /*1200 mal 900px*/
@@ -34,38 +71,19 @@ p{
 
 
 
-
-h2{	
-	/*font-family: 'SeroPro';*/
-	font-size: 24pt;
-
-}
-
-
-h3{
-	/*font-family: 'SeroPro';*/
-	font-size: 16pt;
-
-	}
-
-h4{
-	/*font-family: 'SeroPro';*/
-	font-size: 12pt;
-	line-height: 18pt;
-
-
-}
-
 h5{
 	margin: 0px;
 	padding: 0px;
 	border-radius: 0px;
-	font-family: 'SeroPro-Light';
-	font-weight: 600;
+	font-family: 'SeroPro-Bold';
+	
 	
 
 }
 
+.spalte1:hover{
+	font-family: 'SeroPro-Bold'
+}
 
 
 
@@ -115,7 +133,10 @@ h5{
 .spalte2{
 	float: left;
 	margin-top: 60px;
-	
+	width: 290px;
+	height: 42.5px;
+	background-color:#FFF;
+
 }
 		
 		.seilspringen{
@@ -133,75 +154,52 @@ h5{
 			background-color: #FFF;
 		}
 
-		/*.seiltanz{
+		.seiltanz{
+			margin-top: 85px;
 			width: 290px;
 			height: 42.5px;
-			background-color: red;
+			background-color:#FFF;
 		}
 
 		.slagline{
 			width: 290px;
 			height: 42.5px;
-			background-color: blue;
+			background-color: #FFF;
 		}
 
 		.seilziehen{
+			margin-top: 170px;
 			width: 290px;
 			height: 28.333px;
-			background-color: red;
+			background-color:#FFF;
 		}
 
 		.tubes{
 			width: 290px;
 			height: 28.333px;
-			background-color: blue;
+			background-color: #FFF;
 		}
 
 		.robe_training{
 			width: 290px;
 			height: 28.333px;
-			background-color: red;
+			background-color:#FFF;
 		}
 
 		.gummitwister{
+			margin-top: 255px;
 			width: 290px;
 			height: 42.5px;
-			background-color: blue;
+			background-color: #FFF;
 		}
 
 		.handtwister{
 			width: 290px;
 			height: 42.5px;
-			background-color: red;
+			background-color:#FFF;
 		}
 
-				<div class="seiltanz">
-					<h3>Seiltanz</h3>
-				</div>
-
-				<div class="slagline">
-					<h3>Slagline</h3>
-				</div>
-
-				<div class="seilziehen">
-					<h3>Seilziehen</h3>
-				</div>
-
-				<div class="tubes">
-					<h3>Tubes</h3>
-				</div>
-
-				<div class="robe_training">
-					<h3>Robe Training</h3>
-				</div>
-
-				<div class="gummitwister">
-					<h3>Gummitwister</h3>
-				</div>
-
-				<div class="handtwister">
-					<h3>Handtwister</h3>
-				</div>*/
+				
 
 
 
@@ -210,63 +208,92 @@ h5{
 .spalte3{
 	float: left;
 	margin-top: 60px;
-	overflow: auto;
+	overflow: scroll;
 }
 
 		.text_seilspringen{
+
 			width: 500px;
 			height: 480px;
 			background-color:#FFF;
+
 						
 						}
 
-		/*.text_bandgymnastik{
+		.text_bandgymnastik{
 			width: 500px;
 			height: 480px;
-			background-color: blue;
+			background-color: #FFF;
 		}
 
+
+.spalte4{
+	float: left;
+	margin-top: 145px;
+	overflow: scroll;
+}
+
 		.text_seiltanz{
+			
 			width: 500px;
 			height: 480px;
-			background-color: red;
+			background-color:#FFF;
 		}
 
 		.text_slagline{
+			
 			width: 500px;
 			height: 480px;
-			background-color: blue;
+			background-color: #FFF;
 		}
+
+
+.spalte5{
+	float: left;
+	margin-top: 230px;
+	overflow: scroll;
+
+}
 		
 		.text_seilziehen{
+			
 			width: 500px;
 			height: 480px;
-			background-color: red;
+			background-color: #FFF;
 		}
 
 		.text_tubes{
+			
 			width: 500px;
 			height: 480px;
-			background-color: blue;
+			background-color: #FFF;
 		}
 
 		.text_robe_training{
+			
 			width: 500px;
 			height: 480px;
-			background-color: red;
+			background-color:#FFF;
 		}
 
+
+.spalte6{
+	float: left;
+	margin-top: 315px;
+	overflow: scroll;
+}
 		.text_gummitwister{
 			width: 500px;
 			height: 480px;
-			background-color: blue;
+			background-color: #FFF;
 		}
 
 		.text_handtwister{
+			
 			width: 500px;
 			height: 480px;
-			background-color: red;
-		}*/
+			background-color:#FFF;
+		}
 
 
 
@@ -275,21 +302,29 @@ h5{
 		
 		color: #000;
 		display: block;
-		font-size: 350px;
+		font-size: 450px;
 		margin-left: 0px;
 		position: absolute;
 		float: left;
 		position:fixed;
-		bottom: 0px;
+		bottom: -120px;
 		margin: 0px;
 		padding: 0px;
 		border-radius: 0px;
+		left: -28px;
+
 
     
 
 		}
 
-		
+
+
+
+
+
+
+
 
 
 
